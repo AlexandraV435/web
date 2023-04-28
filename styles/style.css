@@ -1,0 +1,112 @@
+@font-face {
+  font-family: ubuntu-light;
+  src: url(./fonts/ubuntu/Ubuntu-Light.ttf);
+}
+
+@font-face {
+  font-family: ubuntu-medium;
+  src: url(./fonts/ubuntu/Ubuntu-Medium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: ubuntu-light;
+  font-weight: 300;
+}
+
+header {
+  width: 100vw;
+  height: 166px;
+  position: fixed;
+  background-color: #F8F9FA;
+}
+
+input {
+  outline: none;
+  border: 1px solid rgba(78, 107, 173, 1);
+  width: 26vw;
+  height: 35px;
+  border-radius: 3px 0 0 3px;
+  padding-left: 7px;
+}
+
+button {
+  width: 110px;
+  height: 37px;
+  background: #4E6BAD;
+  border: none;
+  border-radius: 0px 3px 3px 0px;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  margin-right: 3vw;
+}
+
+.description {
+  display: flex;
+  margin-top: 5px;
+  justify-content: center
+}
+
+.main__wrapper {
+  display: flex;
+  border-bottom: 1px solid #0752FF;
+  padding-bottom: 22px;
+  margin-top: 7px;
+  align-items: center;
+  justify-content: center
+}
+
+.spb {
+  background: #DEE8FF;
+  text-align: center;
+  font-size: 14px;
+  padding: 7px 0 7px 0;
+  margin-bottom: 12px;
+  width: 207px;
+}
+
+.icons {
+  width: 127px;
+  height: 35px;
+  margin-right: 3vw;
+}
+
+.logo {
+  width: 181px;
+  height: 62px;
+}
+
+.wrapper__form {
+  display: flex;
+  margin-left: 3vw;
+}
+
+.search {
+  height: 18px;
+  width: 18px;
+  margin-left: 15px;
+}
+
+.contacts p{
+  font-size: 14px;
+  color: #4E6BAD;
+}
+
+.contacts h2 {
+  font-family: ubuntu-medium;
+  margin: 7px 0 7px 0;
+  color: #001B5B;
+}
+
+.description p {
+  font-size: 14px;
+  color: #001B5B;
+  margin-right: 8vw;
+}
